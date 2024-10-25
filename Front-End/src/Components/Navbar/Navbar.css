@@ -1,0 +1,93 @@
+/* Navbar container */
+.navbar {
+    display: flex; /* Use Flexbox for layout */
+    justify-content: space-between; /* Space between logo and items */
+    align-items: center; /* Center items vertically */
+    background-color: #91C9FE; /* Updated background color */
+    padding: 10px 20px; /* Padding around the navbar */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  /* Navbar logo */
+.navbar .logo {
+    height: 40px; /* Adjust logo size */
+  }
+  
+  /* Navbar items */
+.navbar ul {
+    display: flex; /* Align items in a row */
+    align-items: center; /* Center items vertically */
+    list-style: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    margin-left: auto; /* Push ul to the right */
+    flex-grow: 1; /* Allow ul to grow and push items to the right */
+    justify-content: flex-end; /* Align items to the right */
+  }
+  
+  /* Individual list items */
+.navbar li {
+    margin: 0 10px; /* Decrease horizontal spacing between items */
+  }
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px; /* Fixed width for a round shape */
+    height: 40px; /* Same as width for a perfect circle */
+    border: 2px solid #ccc; /* Border color */
+    border-radius: 50%; /* Fully rounded edges */
+    background-color: white; /* Set background color to white */
+    transition: background-color 0.3s; /* Smooth background transition */
+    cursor: pointer; /* Change cursor on hover */
+  }
+  
+/* Search, globe, and naya buttons */
+.globe, .naya {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px; /* Padding for buttons */
+    border: 2px solid #ccc; /* Border color */
+    border-radius: 20px; /* Rounded edges */
+    background-color: white; /* Set background color to white */
+    transition: background-color 0.3s; /* Smooth background transition */
+    cursor: pointer; /* Change cursor on hover */
+  }
+  
+.search:hover, .globe:hover, .naya:hover {
+    background-color: #e0e0e0; /* Change background on hover */
+  }
+  
+  /* Optional: Adjust border color */
+.search, .globe, .naya {
+    border-color: #91C9FE; /* Optional: Match border to navbar color */
+  }
+  
+  
+  /* Icon styling */
+.search img, .globe img {
+    width: 20px; /* Adjust icon size */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 5px; /* Space between icon and text */
+  }
+  
+  /* Menu icon styling */
+.navbar img.menu {
+    width: 30px; /* Adjust size for menu icon */
+    height: auto; /* Maintain aspect ratio */
+    cursor: pointer; /* Change cursor on hover */
+  }
+  
+  /* Responsive adjustments */
+@media (max-width: 768px) {
+    .navbar ul {
+      flex-direction: column; /* Stack items vertically on smaller screens */
+      align-items: flex-start; /* Align items to the left */
+    }
+    .navbar li {
+      margin: 10px 0; /* Add vertical spacing between items */
+    }
+  }
+  
