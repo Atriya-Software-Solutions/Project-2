@@ -3,18 +3,21 @@
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
+
 }
 .container{
   width: 100vw;
   min-height: 100vh;
-  background: #ced8ff;
+  
+
 }
 .footer{
-  position: fixed; /* Keep footer fixed */
+ 
   bottom: 0;
   left: 0;
   width: 100%;
   background: #91C9FE;
   text-align: center;
-  padding: 10px;
+  background-color:  #91C9FE;
+
 }

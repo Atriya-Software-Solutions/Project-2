@@ -1,6 +1,8 @@
 .contact{
     text-align: center;
     margin-top: 1rem;
+    background-color: #91C9FE;
+    ;
 }
 .contact-info{
     display: flex;

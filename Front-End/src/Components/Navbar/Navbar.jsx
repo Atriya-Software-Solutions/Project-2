@@ -14,7 +14,8 @@ const Navbar = () => {
     <li><div className="search"><img src={search} alt='' /></div></li>
     <li><div className="globe"><img src={globe} alt='' /> English</div></li> 
     <li><div className="naya">नयाँ सदस्यता</div></li> 
-    <li><img src={menu} alt='' className='menu' /></li> 
+    <li><img src={menu} alt='' className='menu' />
+    </li> 
   </ul>
 </div>
 

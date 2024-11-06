@@ -1,4 +1,72 @@
 .body-div{
-    height: 700px;
+    height: 1000px;
     background-color: #ffffff;
 }
+.body-div2{
+    width: 90%;
+    margin: 0 auto;
+    
+}
+.grey-box {
+    background-color: grey;
+    /* width: calc(100% - 40px); */
+    height: 300px;
+    padding: 30px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    box-sizing: border-box;
+    margin-right: 25px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .message1 {
+    font-family: 'Noto Sans Devanagari', sans-serif;  /* Nepali-friendly font */
+    font-size: 18px;  /* Adjust the font size */
+    text-align: center;  /* Center align the text */ /* White text color */
+    background-color: #91C9FE;  /* Green background color for the oval */
+    padding: 10px 20px;  /* Add padding: vertical 20px, horizontal 40px */
+    border-radius: 50px;  /* This makes the box oval */
+    margin-top: 20px;  /* Adds space on top */
+    width: auto;  /* Automatically adjusts width based on content */
+    display: inline-block;  /* Makes the div fit to content */
+    margin-left: 10px;
+  }
+.introduction-photo{
+  max-width: 320px;
+  float: left;
+  border: 3px solid #fff;
+  margin-right: 15px;
+}
+
+
+.wrapper{
+  margin: 0px auto;
+  width: 100%;
+  background: linear-gradient(90deg, rgba(145, 201, 254, 0.27) 52.92%, rgba(102, 141, 178, 0.27) 70.64%, rgba(96, 133, 168, 0.27) 84.5%, rgba(87, 120, 152, 0.27) 100%);    display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.text-box h2{
+  font-size: 42px;
+}
+.text-box p{
+  font-size: 16px;
+}
+.today{
+  font-family: 'Noto Sans Devanagari', sans-serif;  /* Nepali-friendly font */
+    font-size: 18px;  /* Adjust the font size */
+    text-align: center;  /* Center align the text */
+      /* White text color */
+    background-color: #91C9FE;  /* Green background color for the oval */
+    padding: 10px 20px;  /* Add padding: vertical 20px, horizontal 40px */
+    border-radius: 50px;  /* This makes the box oval */
+    margin-top: 20px;  /* Adds space on top */
+    width: auto;  /* Automatically adjusts width based on content */
+    display: inline-block;  /* Makes the div fit to content */
+    margin-left: 10px;
+
+}
+  
+  
